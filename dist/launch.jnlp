@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>proyecto_Oct</title>
+        <vendor>David JP</vendor>
+        <homepage href=""/>
+        <description>proyecto_Oct</description>
+        <description kind="short">proyecto_Oct</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="proyecto_Oct.jar" main="true"/>
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+</resources>
+    <application-desc main-class="Vista.VistaPrincipal">
+    </application-desc>
+</jnlp>
